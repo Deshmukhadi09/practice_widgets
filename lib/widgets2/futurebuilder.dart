@@ -23,7 +23,7 @@ class _FutBuildState extends State<FutBuild> {
       body: Center(
         child: FutureBuilder(
           future: getData(),
-          // initialData: InitialData,
+          initialData: 0,
           builder: (BuildContext context, AsyncSnapshot snapshot) {
             if(snapshot.connectionState == ConnectionState.waiting) {
               return const CircularProgressIndicator();

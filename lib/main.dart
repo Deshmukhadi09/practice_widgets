@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
+
+// import 'package:navigation_animation/widgets2/adaptive.dart';
+import 'package:navigation_animation/widgets2/fittedBox.dart';
+// import 'package:navigation_animation/widgets2/spacer.dart';
+// import 'package:navigation_animation/widgets2/steambuilder.dart';
 // import 'package:navigation_animation/widgets2/DatePicker.dart';
-import 'package:navigation_animation/widgets2/futureBuilder.dart';
+// import 'package:navigation_animation/widgets2/futureBuilder.dart';
+// import 'package:navigation_animation/widgets2/tooltip.dart';
 // import 'package:navigation_animation/widgets/bottom_navigation.dart';
 // import 'package:navigation_animation/widgets/stepper.dart';
 // import 'package:navigation_animation/widgets2/cross_fade.dart';
@@ -42,7 +48,7 @@ class _MyAppState extends State<MyApp> {
         primaryColorDark: Colors.black,
       ),
       //No need to specified the home with named routes.......................
-      home: const FutBuild(),
+      home: const FitBox(),
     );
   }
 }
